@@ -38,8 +38,6 @@ This project aims to facilitate the use of ``golang`` avoiding Operative System 
 
 - [Requirements](#require)
 - [Quickstart](#quickstart)
-- [License](#license)
-
 
 ## <a name="require">Requirements</a>
 
@@ -59,21 +57,14 @@ After that you can run your vagrant machine:
 ```
 $ vagrant up 
 ```
+WORKSPACE is: `/vagrant/go`
 
-It uses the default ubuntu/trusty64 box
-
-If you wish, you can learn more about it alter a [vagrant file](Vagrantfile) and its [configuration options](ConfigOptions).
 
 ## Feedback
 
 Feedback is more than welcome; I probably got some things wrong so please tell me about it.
 
 
-[Vagrant]: http://www.vagrantup.com/
-[Vagrantfile]: https://github.com/ivan-iver/vagrant_golang/blob/master/Vagrantfile
-[ConfigOptions]: http://docs.vagrantup.com/v2/vagrantfile/
+## Reference
 
-
-## Reference from
-
-[https://github.com/ivan-iver/vagrant-golang.git]: https://github.com/ivan-iver/vagrant-golang.git
+[https://github.com/ivan-iver/vagrant-golang.git](https://github.com/ivan-iver/vagrant-golang.git)
