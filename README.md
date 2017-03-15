@@ -51,25 +51,18 @@ This project aims to facilitate the use of ``golang`` avoiding Operative System 
 First at all clone our vagrant repository:
 
 ``` bash
-$ git clone https://github.com/ivan-iver/vagrant_golang.git golang
+$ git clone https://github.com/sumit-murari/vagrant-golang.git
 ```
 
 After that you can run your vagrant machine:
 
 ```
-$ cd golang/
-$ vagrant up --provision
+$ vagrant up 
 ```
 
-Then the box will be downloaded for you.
+It uses the default ubuntu/trusty64 box
 
 If you wish, you can learn more about it alter a [vagrant file](Vagrantfile) and its [configuration options](ConfigOptions).
-
-## <a name="license"></a>Copyright and license
-
-***
-
-Copyright (c) 2015 Iván Jaimes. See [LICENSE](LICENSE) for details.
 
 ## Feedback
 
@@ -79,3 +72,8 @@ Feedback is more than welcome; I probably got some things wrong so please tell m
 [Vagrant]: http://www.vagrantup.com/
 [Vagrantfile]: https://github.com/ivan-iver/vagrant_golang/blob/master/Vagrantfile
 [ConfigOptions]: http://docs.vagrantup.com/v2/vagrantfile/
+
+
+## Reference from
+
+[https://github.com/ivan-iver/vagrant-golang.git]: https://github.com/ivan-iver/vagrant-golang.git
