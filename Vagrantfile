@@ -14,9 +14,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   config.vm.box_check_update = false
+  config.vm.synced_folder ".", "/vagrant", type: "rsync"
   config.vm.provider "virtualbox" do |vb|
     vb.customize ["modifyvm", :id, "--accelerate3d", "off"]
-    vb.customize [ "guestproperty", "set", :id, "/VirtualBox/GuestAdd/VBoxService/--timesync-set-threshold", 10000 ]
     vb.memory = 4096 
     vb.cpus = 2
   end
